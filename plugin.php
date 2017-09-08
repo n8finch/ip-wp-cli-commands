@@ -97,7 +97,7 @@ class IP_WP_CLI_COMMANDS extends WP_CLI_Command {
 			}
 
 			//echo something to show that things are processing.
-			system("echo ". "Member processed...");
+			
 			$total_loops++;
 		} //end foreach
 
