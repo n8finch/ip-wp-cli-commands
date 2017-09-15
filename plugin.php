@@ -38,7 +38,7 @@ class IP_WP_CLI_COMMANDS extends WP_CLI_Command {
 	 *
 	 * ## EXAMPLES
 	 *
-	 * wp ip remove_user --level=5 --email=me@test.com,another@email.com, and@another.com
+	 * wp ip remove_user --level=5 --email=me@test.com,another@email.com, and@another.com --dry-run
 	 *
 	 * @synopsis --level=<number> --email=<email> [--dry-run]
 	 *
